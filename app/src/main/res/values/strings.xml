@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">
+        <b>Puissance 4</b>
+    </string>
+    <string name="sub_title">
+        Alignez
+        <b>4 jetons</b>
+        pour gagner la partie.
+    </string>
+    <string name="start">Commencer</string>
+    <string name="restart">Recommencer</string>
+    <string name="j1">Joueur jaune</string>
+    <string name="j2">Joueur rouge</string>
+    <string name="current_player">
+        , à toi de jouer !
+    </string>
+</resources>
