@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center_horizontal" android:orientation="vertical" tools:ignore="UselessLeaf" android:background="@color/blue">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:textSize="@dimen/title_size" tools:ignore="SpUsage,UnusedAttribute" android:textColor="@color/white" android:layout_marginTop="@dimen/title_top_mar" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sub_title" android:textSize="@dimen/sub_title_size" android:textColor="@color/light_light_blue" android:layout_marginTop="@dimen/sub_title_top_mar" android:layout_marginLeft="@dimen/sub_title_margin" android:layout_marginRight="@dimen/sub_title_margin" android:textAlignment="center" tools:ignore="SpUsage" />
+
+        <LinearLayout android:tag="test" android:id="@+id/test" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="bottom|center_horizontal">
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/light_light_blue" android:textSize="@dimen/sub_title_size" android:text="@string/menu_txt" android:textAlignment="center" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/light_light_blue" android:textSize="@dimen/sub_title_size" android:text="@string/menu_txt2" android:textAlignment="center" android:layout_marginBottom="@dimen/inputj2_mar_bot" />
+
+            <Button android:id="@+id/multiplayer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/multiplayer" android:textColor="@color/white" android:layout_marginBottom="@dimen/sub_title_top_mar" />
+
+            <Button android:id="@+id/singleplayer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/singleplayer" android:textColor="@color/white" android:layout_marginBottom="@dimen/button_mar_bot" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

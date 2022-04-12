@@ -6,9 +6,8 @@ import android.util.DisplayMetrics
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat
 
-class GameActivity : AppCompatActivity() {
+class MultiplayerActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game)
@@ -31,14 +30,26 @@ class GameActivity : AppCompatActivity() {
         val player2 = intent.getStringExtra("name2").toString()
 
         // Get the board 
-        val ll_board = findViewById<LinearLayout>(R.id.board)
+        val llboard = findViewById<LinearLayout>(R.id.board)
 
-        // Get the current player EditTet
+        // Get the current player TextView
         val currentPlayer = findViewById<TextView>(R.id.player_name)
+
+        // Get the message TextView
+        val message = findViewById<TextView>(R.id.message)
 
         // Get the current color LinearLayout
         val currentColor = findViewById<LinearLayout>(R.id.current_color)
 
-        val board = Board(7, 6, this, ll_board, width, player1, player2, currentPlayer, currentColor)
+        val board = MultiplayerBoard(this, llboard, width, player1, player2, currentPlayer, currentColor, message)
+
+        // Get the restart_game button
+        val reset = findViewById<TextView>(R.id.restart_game)
+        
+        // Set the onClickListener for the restart_game button
+        reset.setOnClickListener {
+            board.reset()
+        }
+
     }
 }

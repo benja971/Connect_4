@@ -3,7 +3,6 @@ package com.mobilite.connect4
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,13 +23,15 @@ class MainActivity : AppCompatActivity() {
             val name2 = j2.text.toString()
 
             if(name1.isEmpty() || name2.isEmpty()){
-                //show error message
-                Log.i("p4","Please enter a name")
+                // Create a toast message
+                val toast = android.widget.Toast.makeText(this, "Veuillez entrer vos pseudos", android.widget.Toast.LENGTH_SHORT)
+                // Show the toast message
+                toast.show()
 
             }else{
                 
                 // create the intent
-                val intent = Intent(this, GameActivity::class.java)
+                val intent = Intent(this, MultiplayerActivity::class.java)
 
                 // put the players names in the intent
                 intent.putExtra("name1", name1)

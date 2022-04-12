@@ -14,4 +14,8 @@
     <string name="current_player">
         , à toi de jouer !
     </string>
+    <string name="menu_txt">Si t’as pas d’amis,</string>
+    <string name="menu_txt2"> joue contre l’intelligence artificielle.</string>
+    <string name="singleplayer">Jouer contre l\'ia</string>
+    <string name="multiplayer">Jouer à deux</string>
 </resources>

@@ -11,6 +11,11 @@
         <entry key="..\:/Users/benja/OneDrive/Fac/L3/Mobilite/Connect_4/app/src/main/res/drawable/yellow_piece.xml" value="0.295" />
         <entry key="..\:/Users/benja/OneDrive/Fac/L3/Mobilite/Connect_4/app/src/main/res/layout/activity_game.xml" value="0.1" />
         <entry key="..\:/Users/benja/OneDrive/Fac/L3/Mobilite/Connect_4/app/src/main/res/layout/activity_main.xml" value="0.8" />
+        <entry key="..\:/Users/benja/OneDrive/Fac/L3/Mobilite/Connect_4/app/src/main/res/layout/activity_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/benja/OneDrive/Fac/L3/Mobilite/Connect_4/app/src/main/res/layout/activity_singleplayer.xml" value="0.3625" />
+        <entry key="..\:/Users/benja/OneDrive/Fac/L3/Mobilite/Connect_4/app/src/main/res/layout/content_menu.xml" value="0.171875" />
+        <entry key="..\:/Users/benja/OneDrive/Fac/L3/Mobilite/Connect_4/app/src/main/res/layout/fragment_first.xml" value="0.171875" />
+        <entry key="..\:/Users/benja/OneDrive/Fac/L3/Mobilite/Connect_4/app/src/main/res/layout/fragment_second.xml" value="0.171875" />
       </map>
     </option>
   </component>
